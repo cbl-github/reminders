@@ -1,0 +1,29 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+~$*
+
+# Common dependency/cache folders
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets
+.env
+.env.*
+
+# IDE settings
+.idea/
+.vscode/
